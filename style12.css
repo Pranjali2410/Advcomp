@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 42px;
+}
+nav{
+    background-color: brown;
+}
+.text1{
+    height: 20px;
+    width: 14em;
+    float: right;
+    margin: 12px 7px 11px 11px;
+}
+.img1{
+    background-color: whitesmoke;
+}
+.back{
+    margin:-94px 0 0 1426px;
+    position: absolute;
+}
+.dropbtn {
+    background-color: brown;
+    color: white;
+      float: right;
+      margin: -18px 3px -6px 40px;
+    font-size: 20px;
+  
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #fff;
+    color: black;
+    padding: 20px 0px 2px 29px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+ body{
+    background: #343b6c;
+} 
+
+.login-page {
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: -50px 0 0 0;
+}
+
+.form {
+  position: relative;
+  filter:drop-shadow(0 0 2px #000000);
+  border-radius: 5px;
+  width: 360px;
+  height: 420px;
+  background-color: #ffffff;
+  padding:40px;
+}
+
+.form img {
+    position: absolute;
+    height: 20px;
+    top: 199px;
+    right: 60px;
+    cursor: pointer;
+}
+
+.form input {
+    outline: 0;
+    background: #f2f2f2;
+    border-radius: 4px;
+    width: 100%;
+    border: 0;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.form input:focus {
+    box-shadow: 0 0 5px 0 rgba(106, 98, 210);
+}
+
+span {
+    color: red;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.form button {
+    outline: 0;
+    background: #6a62d2;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: black;
+    color: #fff;
+
+}
+
+.message{
+    margin: 15px 0;
+    text-align: center;
+
+}
+.form .message a {
+    font-size: 14px;
+    color: #6a62d2;
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style12.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="img1">
+        <div class="animate__animated animate__backInRight animate__slower">
+        <img src="Screenshot 2023-09-17 225206.png" height="130px" width="370px">
+    </div>
+    </div>
+    <!-- <div class="back">
+        <a href="index.html">
+            <img src="icons8-back-button-48 .png" height="60em" width="60em">
+        </a>
+    </div> -->
+    <!-- <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <div class="dropdown">
+              <text class="dropbtn">Courses</button>
+              <div class="dropdown-content">
+                <a href="Prog_courses.html">Programming</a>
+                <a href="Basic_courses1.html">Basic</a>
+                <a href="Des_courses2.html">Designing</a>
+              </div>
+            </div>
+            <li><a href="admission_form.html">Admission</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="#">Online Exam</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <input type="textfield" name="" class="text1" placeholder="Search">
+        </ul>
+    </nav> -->
+    <div class="animate__animated animate__zoomIn animate__slower animate__delay-3s">
+    <div class="login-page">
+        <div class="form">
+            <form name="myForm" method="post" action="javascript:void(0);" onsubmit="return myfunction();">
+                <h2>SIGN IN TO YOUR ACCOUNT</h2>
+                <input type="text" name="uname" class="inputText" placeholder="User Name" id="user" autocomplete="off" />
+                <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass" autocomplete="off" / name="pass" class="inputText" placeholder="Password">
+                <span id="vaild-pass"></span>
+                <button type="submit">SIGN IN</button>
+                
+            </form>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        function myfunction() {
+            var un = document.forms["myForm"]["uname"].value;
+            var pw = document.forms["myForm"]["pass"].value;
+            if (un == "pranjali@gmail.com" && pw == "Pranjali") {
+                window.location.href = "Main.html"; // Replace "index.html" with the desired URL
+                return false; // Prevent the form from submitting
+            } else {
+                alert("Invalid Username and Password");
+                return false; // Prevent the form from submitting
+            }
+        }
+    </script>
+</body>
+</html>
